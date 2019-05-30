@@ -2,12 +2,12 @@ package DesignPattern.factorymethod;
 
 
 /**
- * @ClassName: ExportOperate
+ * @ClassName: AbstractExportOperate
  * @Auther: zhoucc
  * @Date: 2019/5/30 11:32
  * @Description: 工厂方法
  */
-public abstract class ExportOperate {
+public abstract class AbstractExportOperate {
 
     /**
      * 功能描述: 数据导入。调用工厂方法，产生对象，执行对象操作。
